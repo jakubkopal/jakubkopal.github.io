@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load news content
     loadNewsContent();
     
+    // Load publications content
+    loadPublicationsContent();
+    
     // Initialize smooth scrolling
     initSmoothScrolling();
     
@@ -21,40 +24,77 @@ document.addEventListener('DOMContentLoaded', function() {
 function loadNewsContent() {
     const newsContainer = document.getElementById('news-container');
     
-    // News data - easily editable
-    const newsData = [
-        {
-            date: "January 2025",
-            title: "New Publication in Scientific Reports",
-            description: "Our latest work on 'Amplitude entropy captures chimera resembling behavior in the altered brain dynamics during seizures' has been published.",
-            link: "https://www.nature.com/articles/s41598-025-97854-y"
-        },
-        {
-            date: "January 2025", 
-            title: "PRECOGNITION Project Protocol Published",
-            description: "Our protocol for 'Learning latent profiles via cognitive growth charting in psychosis' is now available in Schizophrenia Bulletin Open.",
-            link: "https://academic.oup.com/schizbullopen/article/6/1/sgaf007/8109912"
-        },
-        {
-            date: "February 2025",
-            title: "Invited Speaker at Pint of Science",
-            description: "Upcoming public talk: 'Mind the Gap: How to analyze what's missing' - making science accessible to everyone.",
-            link: "https://www.linkedin.com/feed/update/urn:li:activity:7331037003343409152/"
-        },
-    ];
+    // Check if newsData exists (from news.js)
+    if (typeof newsData === 'undefined') {
+        console.error('News data not loaded');
+        return;
+    }
+    
+    // Show only the 3 most recent news items
+    const recentNews = newsData.slice(0, 3);
     
     // Generate news HTML
-    newsData.forEach(item => {
+    recentNews.forEach(item => {
         const newsItem = document.createElement('div');
         newsItem.className = 'news-item';
         newsItem.innerHTML = `
             <div class="news-date">${item.date}</div>
             <h3>${item.title}</h3>
             <p>${item.description}</p>
-            <a href="${item.link}" class="news-link">Read More →</a>
+            ${item.link !== '#' ? `<a href="${item.link}" class="news-link" target="_blank">Read More →</a>` : ''}
         `;
         newsContainer.appendChild(newsItem);
     });
+    
+    // Add "View All News" link if there are more than 3 items
+    if (newsData.length > 3) {
+        const viewAllLink = document.createElement('div');
+        viewAllLink.style.textAlign = 'center';
+        viewAllLink.style.marginTop = '2rem';
+        viewAllLink.innerHTML = `
+            <a href="news.html" class="cta-button">View All News & Archive →</a>
+        `;
+        newsContainer.appendChild(viewAllLink);
+    }
+}
+
+// Load publications content
+function loadPublicationsContent() {
+    const pubContainer = document.getElementById('publications-container');
+    
+    // Check if publicationsData exists
+    if (typeof publicationsData === 'undefined') {
+        console.error('Publications data not loaded');
+        return;
+    }
+    
+    // Show only the 3 most recent publications
+    const recentPubs = publicationsData.slice(0, 3);
+    
+    // Generate publications HTML
+    recentPubs.forEach(item => {
+        const pubItem = document.createElement('div');
+        pubItem.className = 'project-card'; // Reuse project card styling
+        pubItem.innerHTML = `
+            <h3>${item.title}</h3>
+            <p style="color: var(--text-light); margin-bottom: 0.5rem;"><strong>${item.authors}</strong></p>
+            <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem;">${item.journal} (${item.date})</p>
+            ${item.link !== '#' ? `<a href="${item.link}" class="news-link" target="_blank">Read Publication →</a>` : ''}
+        `;
+        pubContainer.appendChild(pubItem);
+    });
+    
+   // Add "View All Publications" link if there are more than 3 items
+    if (publicationsData.length > 3) {
+        const viewAllLink = document.createElement('div');
+        viewAllLink.style.gridColumn = '1 / -1';  // Span full width
+        viewAllLink.style.marginTop = '2rem';
+        viewAllLink.style.marginBottom = '2rem';
+        viewAllLink.innerHTML = `
+            <a href="publications.html" class="cta-button">View All Publications →</a>
+        `;
+        pubContainer.appendChild(viewAllLink);
+}
 }
 
 // Smooth scrolling for navigation links
