@@ -1,0 +1,31 @@
+title: "Jakub Kopal"
+name: "Jakub Kopal"
+description: "Portfolio & timeline"
+url: "https://jakubkopal.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+locale: "en-US"
+markdown: kramdown
+
+author:
+  name: "Jakub Kopal"
+  bio: "Neuroscience · genetics · AI"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=GfLE4fgAAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/jakubkopal"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
