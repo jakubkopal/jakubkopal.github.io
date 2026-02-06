@@ -1,0 +1,26 @@
+.timeline { margin-top: 1rem; }
+
+.tl-item{
+  display:grid;
+  grid-template-columns:110px 1fr;
+  gap:18px;
+  align-items:start;
+  margin:0 0 22px 0;
+}
+
+.tl-date{ font-weight:700; opacity:0.9; }
+
+.tl-card{
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius:14px;
+  padding:14px 16px;
+  background:rgba(255,255,255,0.04);
+}
+
+.tl-title{ font-weight:700; font-size:1.05rem; margin-bottom:4px; }
+.tl-sub{ opacity:0.85; margin-bottom:10px; }
+
+@media (max-width:700px){
+  .tl-item{ grid-template-columns:1fr; }
+  .tl-date{ margin-bottom:-10px; }
+}
