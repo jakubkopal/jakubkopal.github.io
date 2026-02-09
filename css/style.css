@@ -5,16 +5,11 @@
 }
 
 :root {
-    /* Accent (modern pink/magenta) */
     --primary-color: #d946ef;     /* fuchsia 500 */
     --secondary-color: #f0abfc;   /* fuchsia 300 */
     --accent-color: #1f1b24;      /* deep charcoal-purple for hovers/cards */
-
-    /* Text */
     --text-dark: #e5e7eb;         /* near-white */
     --text-light: #a1a1aa;        /* muted gray */
-
-    /* Surfaces */
     --bg-light: #0b0b0f;          /* almost black */
     --white: #12121a;   
 }
