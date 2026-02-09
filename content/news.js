@@ -7,18 +7,21 @@ const newsData = [
         date: "October 2025",
         title: "World Congress of Psychiatry 2025",
         description: "Oral presentation at the WCP in Prague, presenting results from the temperament deviation analyses to an international clinical and research audience.",
+        link: "https://2025.wcp-congress.com/",
         type: "talk"
     },
     {
         date: "October 2025", 
         title: "Meeting of Czech scientific community in Norway",
         description: "Public presentation at the Embassy of the Czech Republic in Oslo, organized by the Czexpats community, promoting the project’s research on mental health, genetics, and brain development to a non-specialist audience and strengthening links between science and society.",
+        link: "https://czexpats.org/",
         type: "talk"
     },
     {
         date: "July 2025", 
         title: "Federation of European Neuroscience Societies 2025",
         description: "Poster presentation at a FENS regional meeting in Oslo, disseminating results related to developmental and genetic aspects of brain and behavior.",
+        link: "https://www.frm2025oslo.no/",
         type: "poster"
     },
     {
