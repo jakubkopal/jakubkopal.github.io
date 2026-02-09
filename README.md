@@ -1,2 +1,2 @@
-# barbora-rehak-buckova
+# Jakub Kopal
 Personal website
