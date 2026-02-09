@@ -63,7 +63,7 @@ const publicationsData = [
         journal: "Biological Psychiatry",
         link: "https://doi.org/10.1016/j.biopsych.2022.07.023",
         type: "publication"
-    }
+    },
     {
         date: "December 2020",
         title: "Typicality of functional connectivity robustly captures motion artifacts in rs‐fMRI across datasets, atlases, and preprocessing pipelines",
