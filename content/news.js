@@ -3,6 +3,13 @@
 // The website will automatically display them
 
 const newsData = [
+     {
+        date: "September 2025",
+        title: "Invited lecture at the Computational Psychiatry Course in Zurich",
+        description: "An absolute pleasure to deliver a talk on Machine Learning at the Computational Psychiatry Course in Zurich!",
+        link: "https://www.linkedin.com/posts/barbora-buckova_what-an-absolute-pleasure-to-deliver-a-talk-activity-7369738141756329985-QGBe?utm_source=share&utm_medium=member_desktop&rcm=ACoAABtcMhsB8xIfY-YELD6xwYa2cUGhQyVFmCA",
+        type: "talk"
+    },
         {
         date: "October 2025",
         title: "World Congress of Psychiatry 2025",
@@ -53,6 +60,13 @@ const newsData = [
         title: "Oslo Innovation Week – Health AI",
         description: "Engaging with researchers, industry representatives, and policymakers on the application of artificial intelligence in health research.",
         type: "meeting"
+    },
+    {
+        date: "June 2024", 
+        title: "Organization for Human Brain Mapping",
+        description: "Oral presentations at OHBM in Seoul. Talk 1: Harnessing population diversity: In search for tools of the trade; Talk 2: Genetic variation shapes modes of population covariation.",
+        link: "https://www.youtube.com/watch?v=l5c-5h5w4TI&t=95s",
+        type: "talk"
     },
  
 ];
