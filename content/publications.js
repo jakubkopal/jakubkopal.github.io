@@ -38,7 +38,7 @@ const publicationsData = [
         title: "Using rare genetic mutations to revisit structural brain asymmetry",
         authors: "Kopal, J., Kumar, K., Shafighi, K., et al.",
         journal: "Nature Communications",
-        link: "https://doi.org/10.1038/s41598-025-97854-y",
+        link: "https://doi.org/10.1038/s41467-024-46784-w",
         type: "publication"
     },
     {
