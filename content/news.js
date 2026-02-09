@@ -3,13 +3,6 @@
 // The website will automatically display them
 
 const newsData = [
-     {
-        date: "September 2025",
-        title: "Invited lecture at the Computational Psychiatry Course in Zurich",
-        description: "An absolute pleasure to deliver a talk on Machine Learning at the Computational Psychiatry Course in Zurich!",
-        link: "https://www.linkedin.com/posts/barbora-buckova_what-an-absolute-pleasure-to-deliver-a-talk-activity-7369738141756329985-QGBe?utm_source=share&utm_medium=member_desktop&rcm=ACoAABtcMhsB8xIfY-YELD6xwYa2cUGhQyVFmCA",
-        type: "talk"
-    },
         {
         date: "October 2025",
         title: "World Congress of Psychiatry 2025",
@@ -19,7 +12,7 @@ const newsData = [
     },
     {
         date: "October 2025", 
-        title: "Meeting of Czech scientific community in Norway",
+        title: "Meeting of the Czech scientific community in Norway",
         description: "Public presentation at the Embassy of the Czech Republic in Oslo, organized by the Czexpats community, promoting the project’s research on mental health, genetics, and brain development to a non-specialist audience and strengthening links between science and society.",
         link: "https://czexpats.org/",
         type: "talk"
@@ -35,30 +28,35 @@ const newsData = [
         date: "May 2025", 
         title: "Extreme depression meeting",
         description: "Scientific presentation at an NIH-funded grant meeting in Stockholm, focused on genetic and neurobiological aspects of severe major depressive disorder.",
+        link: "https://jakubkopal.github.io/news.html",
         type: "meeting"
     },
     {
         date: "March 2025",
         title: "GWAS course at the University of Oslo",
         description: "Lead lecture on copy number variation at a GWAS course, contributing to doctoral and postdoctoral training in statistical genetics.",
+        link: "https://www.med.uio.no/klinmed/forskning/sentre/presisjonspsykiatri/aktuelt/arrangementer/2026/genome-wide-association-studies-why-how-and-then-w.html",
         type: "talk"
     },
   {
         date: "March 2025", 
         title: "Visual Literacy – Design Principles for Scientists",
         description: "Participation in the workshop, improving the accessibility and clarity of scientific communication through effective data visualization.",
+        link: "https://jakubkopal.github.io/news.html",
         type: "meeting"
     },
     {
         date: "January 2025",
-        title: "Applied Machine Learning Days,",
+        title: "Applied Machine Learning Days",
         description: "Attendance at the meeting engaging with international experts on state-of-the-art machine learning methods relevant to large-scale biomedical data.",
+        link: "https://2026.appliedmldays.org/",
         type: "meeting"
     },
     {
         date: "September 2024", 
         title: "Oslo Innovation Week – Health AI",
         description: "Engaging with researchers, industry representatives, and policymakers on the application of artificial intelligence in health research.",
+        link: "https://www.oiw.no/",
         type: "meeting"
     },
     {
