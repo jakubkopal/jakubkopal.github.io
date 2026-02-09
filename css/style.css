@@ -5,13 +5,15 @@
 }
 
 :root {
-    --primary-color: #d946ef;     /* fuchsia 500 */
-    --secondary-color: #f0abfc;   /* fuchsia 300 */
-    --accent-color: #1f1b24;      /* deep charcoal-purple for hovers/cards */
-    --text-dark: #e5e7eb;         /* near-white */
-    --text-light: #a1a1aa;        /* muted gray */
-    --bg-light: #0b0b0f;          /* almost black */
-    --white: #12121a;   
+  --primary-color: #c084fc;     /* muted rose-violet */
+  --secondary-color: #a78bfa;   /* soft violet (rare use) */
+  --accent-color: #18181b;      /* graphite surface */
+
+  --text-dark: #e5e7eb;
+  --text-light: #9ca3af;
+
+  --bg-light: #0b0b0f;          /* background */
+  --white: #12121a;  
 }
 
 body {
