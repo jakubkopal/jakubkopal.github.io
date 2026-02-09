@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary-color: #008A8F;/* #7c9885;*/
-    --secondary-color: #ADFCFF;/*#a8c4b0;*/
-    --accent-color: #BDE3E4;/*#e8f4ea;*/
-    --text-dark: #2c3e50;
-    --text-light: #5d6d7e;
-    --bg-light: #fafbfc;
-    --white: #ffffff;
+    --primary-color: #f97316;/* #7c9885;*/
+    --secondary-color: #fdba74;/*#a8c4b0;*/
+    --accent-color: #2a2a2a;/*#e8f4ea;*/
+    --text-dark: #e5e7eb;
+    --text-light: #9ca3af;
+    --bg-light: #0b0b0b;
+    --white: #111111;
 }
 
 body {
