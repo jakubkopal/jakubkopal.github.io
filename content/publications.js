@@ -47,7 +47,7 @@ const publicationsData = [
         date: "August 2023",
         title: "The end game: respecting major sources of population diversity",
         journal: "Nature Methods",
-        link: "https://doi.org/10.1038/s41592-023-01812-3,
+        link: "https://doi.org/10.1038/s41592-023-01812-3",
         type: "publication"
     },
     {
