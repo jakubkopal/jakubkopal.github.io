@@ -57,7 +57,7 @@
             const filteredNews = filter === 'all' 
                 ? newsData 
                 : newsData.filter(item => item.type === filter);
-            /*
+            
              filteredNews.forEach(item => {
                 const newsItem = document.createElement('div');
                 newsItem.className = 'news-item';
@@ -73,7 +73,7 @@
                 `;
                 container.appendChild(newsItem);
             });
-            */
+            
             if (filteredNews.length === 0) {
                 container.innerHTML = '<p style="text-align: center; color: var(--text-light);">No items found in this category.</p>';
             }
