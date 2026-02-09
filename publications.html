@@ -52,33 +52,33 @@
 
     <script src="content/publications.js"></script>
     <script>
-        // Load all publications
-        function loadAllPublications(filter = 'all') {
-            const container = document.getElementById('publications-archive-container');
+        // Load all news items
+        function loadAllNews(filter = 'all') {
+            const container = document.getElementById('news-archive-container');
             container.innerHTML = '';
             
-            const filteredPubs = filter === 'all' 
-                ? publicationsData 
-                : publicationsData.filter(item => item.type === filter);
+            const filteredNews = filter === 'all' 
+                ? newsData 
+                : newsData.filter(item => item.type === filter);
             
-            filteredPubs.forEach(item => {
-                const pubItem = document.createElement('div');
-                pubItem.className = 'project-card';
-                pubItem.setAttribute('data-type', item.type);
-                pubItem.innerHTML = `
+            filteredNews.forEach(item => {
+                const newsItem = document.createElement('div');
+                newsItem.className = 'news-item';
+                newsItem.setAttribute('data-type', item.type);
+                newsItem.innerHTML = `
+                    <div class="news-date">${item.date}</div>
                     <h3>${item.title}</h3>
-                    <p style="color: var(--text-light); margin-bottom: 0.5rem;"><strong>${item.authors}</strong></p>
-                    <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem;">${item.journal} (${item.date})</p>
-                    ${item.link !== '#' ? `<a href="${item.link}" class="news-link" target="_blank">Read Publication →</a>` : ''}
+                    <p>${item.description}</p>
+                    ${item.link !== '#' ? `<a href="${item.link}" class="news-link" target="_blank">Read More →</a>` : ''}
                     <div style="margin-top: 1rem;">
                         <span class="tag">${item.type}</span>
                     </div>
                 `;
-                container.appendChild(pubItem);
+                container.appendChild(newsItem);
             });
             
-            if (filteredPubs.length === 0) {
-                container.innerHTML = '<p style="text-align: center; color: var(--text-light);">No publications found in this category.</p>';
+            if (filteredNews.length === 0) {
+                container.innerHTML = '<p style="text-align: center; color: var(--text-light);">No items found in this category.</p>';
             }
         }
         
