@@ -5,15 +5,15 @@
 }
 
 :root {
-    --primary-color: #c084fc;     /* muted rose-violet */
-    --secondary-color: #a78bfa;   /* soft violet */
-    --accent-color: #18181b;      /* graphite surface */
+--primary-color: #6366f1;      /* refined indigo */
+--secondary-color: #8b5cf6;    /* subtle violet */
+--accent-color: #0f172a;       /* slate-900 */
 
-    --text-dark: #e5e7eb;
-    --text-light: #9ca3af;
+--text-dark: #e2e8f0;
+--text-light: #94a3b8;
 
-    --bg-light: #0b0b0f;
-    --white: #12121a;
+--bg-light: #0b1120;           /* deep navy-black */
+--white: #111827;
 }
 
 body {
