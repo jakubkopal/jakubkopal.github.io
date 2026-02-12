@@ -5,23 +5,15 @@
 }
 
 :root {
-  /* Core palette */
-  --primary-color: #6366f1;      /* refined indigo */
-  --primary-hover: #4f46e5;      /* deeper indigo for hover states */
-  --secondary-color: #8b5cf6;    /* subtle violet accent */
-  --accent-color: #0f172a;       /* deep slate */
+  --primary-color: #14b8a6;      /* muted teal */
+  --secondary-color: #0ea5e9;    /* restrained cyan */
+  --accent-color: #111827;       /* charcoal */
 
-  /* Text */
-  --text-primary: #f1f5f9;       /* soft near-white */
-  --text-secondary: #94a3b8;     /* slate-400 */
+  --text-dark: #f1f5f9;
+  --text-light: #94a3b8;
 
-  /* Background layers */
-  --bg-main: #0b1120;            /* deep navy-black */
-  --bg-surface: #111827;         /* elevated surface */
-  --bg-elevated: #1f2937;        /* cards / modals */
-
-  /* Borders */
-  --border-subtle: rgba(255, 255, 255, 0.06);
+  --bg-light: #0c1117;
+  --white: #1f2937;
 }
 
 
