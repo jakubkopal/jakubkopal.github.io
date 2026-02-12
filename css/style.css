@@ -5,16 +5,25 @@
 }
 
 :root {
---primary-color: #6366f1;      /* refined indigo */
---secondary-color: #8b5cf6;    /* subtle violet */
---accent-color: #0f172a;       /* slate-900 */
+  /* Core palette */
+  --primary-color: #6366f1;      /* refined indigo */
+  --primary-hover: #4f46e5;      /* deeper indigo for hover states */
+  --secondary-color: #8b5cf6;    /* subtle violet accent */
+  --accent-color: #0f172a;       /* deep slate */
 
---text-dark: #e2e8f0;
---text-light: #94a3b8;
+  /* Text */
+  --text-primary: #f1f5f9;       /* soft near-white */
+  --text-secondary: #94a3b8;     /* slate-400 */
 
---bg-light: #0b1120;           /* deep navy-black */
---white: #111827;
+  /* Background layers */
+  --bg-main: #0b1120;            /* deep navy-black */
+  --bg-surface: #111827;         /* elevated surface */
+  --bg-elevated: #1f2937;        /* cards / modals */
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.06);
 }
+
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
