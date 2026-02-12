@@ -5,15 +5,15 @@
 }
 
 :root {
-  --primary-color: #6366f1;      /* refined indigo */
-  --secondary-color: #8b5cf6;    /* subtle violet */
-  --accent-color: #0f172a;       /* slate-900 */
+  --primary-color: #14b8a6;      /* muted teal */
+  --secondary-color: #0ea5e9;    /* restrained cyan */
+  --accent-color: #111827;       /* charcoal */
 
-  --text-dark: #e2e8f0;
+  --text-dark: #f1f5f9;
   --text-light: #94a3b8;
 
-  --bg-light: #0b1120;           /* deep navy-black */
-  --white: #111827;
+  --bg-light: #0c1117;
+  --white: #1f2937;
 }
 
 
