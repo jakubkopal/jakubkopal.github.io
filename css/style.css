@@ -5,15 +5,15 @@
 }
 
 :root {
-  --primary-color: #c084fc;     /* muted rose-violet */
-  --secondary-color: #a78bfa;   /* soft violet (rare use) */
-  --accent-color: #18181b;      /* graphite surface */
+    --primary-color: #c084fc;     /* muted rose-violet */
+    --secondary-color: #a78bfa;   /* soft violet */
+    --accent-color: #18181b;      /* graphite surface */
 
-  --text-dark: #e5e7eb;
-  --text-light: #9ca3af;
+    --text-dark: #e5e7eb;
+    --text-light: #9ca3af;
 
-  --bg-light: #0b0b0f;          /* background */
-  --white: #12121a;  
+    --bg-light: #0b0b0f;
+    --white: #12121a;
 }
 
 body {
