@@ -2,6 +2,22 @@
 // Add new items to the TOP of this array (most recent first)
 const publicationsData = [
     {
+        date: "March 2026",
+        title: "Early-childhood temperament deviations mark psychiatric risk into early adulthood",
+        authors: "Kopal, J., Bakkeb, N.R., Parekh, P., et al.",
+        journal: "medRxiv",
+        link: "https://doi.org/10.64898/2026.03.27.26349492",
+        type: "preprint"
+    }, 
+    {
+        date: "February 2026",
+        title: "Mapping genetic convergence across brain structure, mental health, and cardiometabolic disease",
+        authors: "Kopal, J., Shadrin, A.A., van der Meer, D., et al.",
+        journal: "Communications Medicine",
+        link: "https://doi.org/10.1101/2025.05.22.25328130",
+        type: "publication"
+    },    
+    {
         date: "January 2026",
         title: "Carriers of LRRK2 pathogenic variants show a milder, anatomically distinct brain signature of Parkinson’s disease",
         authors: "Kopal, J., Vo, A., Tao, Q., et al.",
@@ -16,14 +32,6 @@ const publicationsData = [
         journal: "Nature Biomedical Engineering",
         link: "https://doi.org/10.1038/s41551-025-01454-0",
         type: "publication"
-    },
-    {
-        date: "May 2025",
-        title: "Mapping genetic convergence across brain structure, mental health, and cardiometabolic disease",
-        authors: "Kopal, J., Shadrin, A.A., van der Meer, D., et al.",
-        journal: "medRxiv",
-        link: "https://doi.org/10.1101/2025.05.22.25328130",
-        type: "preprint"
     },
     {
         date: "May 2025", 
