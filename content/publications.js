@@ -4,7 +4,7 @@ const publicationsData = [
     {
         date: "March 2026",
         title: "Early-childhood temperament deviations mark psychiatric risk into early adulthood",
-        authors: "Kopal, J., Bakkeb, N.R., Parekh, P., et al.",
+        authors: "Kopal, J., Bakken, N.R., Parekh, P., et al.",
         journal: "medRxiv",
         link: "https://doi.org/10.64898/2026.03.27.26349492",
         type: "preprint"
