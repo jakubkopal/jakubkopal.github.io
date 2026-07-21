@@ -3,6 +3,20 @@
 // The website will automatically display them
 
 const newsData = [
+             {
+        date: "September 2026",
+        title: "Nordic Conference on Future Health 2026",
+        description: "Oral presentation in Copenhagen on early-childhood temperament departures as markers of psychiatric risk into early adulthood.",
+        link: "https://nordic-conference-on-future-health.org/",
+        type: "talk"
+    },
+            {
+        date: "September 2026",
+        title: "World Congress of Psychiatric Genetics 2026",
+        description: "ral presentation on clinical trajectories and genetic architecture across the neurological-psychiatric boundary.",
+        link: "https://ispg.net/wcpg-2026/",
+        type: "talk"
+    },    
         {
         date: "October 2025",
         title: "World Congress of Psychiatry 2025",
