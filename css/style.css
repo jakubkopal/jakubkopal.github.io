@@ -5,13 +5,13 @@
 }
 
 :root {
---primary-color: #4a7c9e;      /* fjord blue */
---secondary-color: #6b9ab8;    /* pale steel */
---accent-color: #e8e0d5;       /* birch white */
---text-dark: #f0f4f7;          /* cold white */
---text-light: #8fa8bc;         /* muted slate */
---bg-light: #0d1619;           /* deep arctic night */
---white: #162028;              /* dark slate */
+--bg-light: #ffffff;           /* clean white */
+--white: #f8fafc;              /* off white sections */
+--accent-color: #1e3a5f;       /* deep navy */
+--primary-color: #2563eb;      /* clear blue accent */
+--secondary-color: #3b82f6;    /* lighter blue */
+--text-dark: #111827;          /* near black */
+--text-light: #6b7280;         /* medium grey */
 }
 
 
