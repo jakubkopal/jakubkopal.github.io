@@ -5,13 +5,13 @@
 }
 
 :root {
---primary-color: #1d4ed8;      /* deeper, calmer blue */
---secondary-color: #3b82f6;    /* medium blue */
---accent-color: #1e3a5f;       /* deep navy for headings */
---text-dark: #0f172a;          /* near black - readable */
---text-light: #475569;         /* medium grey */
---bg-light: #f8fafc;           /* clean off-white */
---white: #ffffff;              /* pure white for cards */
+--primary-color: #2E6E8E;      /* fjord blue - deeper, cooler than teal */
+--secondary-color: #A8D8E8;    /* pale arctic water */
+--accent-color: #D6E8EF;       /* light frost */
+--text-dark: #1a2e3b;          /* deep nordic night */
+--text-light: #4a6070;         /* slate grey */
+--bg-light: #f7f9fb;           /* cold white */
+--white: #ffffff;
 }
 
 
