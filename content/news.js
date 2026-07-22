@@ -13,8 +13,15 @@ const newsData = [
             {
         date: "September 2026",
         title: "World Congress of Psychiatric Genetics 2026",
-        description: "ral presentation on clinical trajectories and genetic architecture across the neurological-psychiatric boundary.",
+        description: "Oral presentation on clinical trajectories and genetic architecture across the neurological-psychiatric boundary.",
         link: "https://ispg.net/wcpg-2026/",
+        type: "talk"
+    },    
+    {
+        date: "June 2026",
+        title: "MediMENT Nordic Collaborators Meeting",
+        description: "Presentation to Nordic consortium partners of MediMENT, presenting the MoBa cohort and its potential for environmental exposure research in psychiatry.",
+        link: "https://www.eppermed.eu/",
         type: "talk"
     },    
         {
