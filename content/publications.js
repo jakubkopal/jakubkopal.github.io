@@ -1,13 +1,21 @@
 // Publications Data
 // Add new items to the TOP of this array (most recent first)
 const publicationsData = [
+        {
+        date: "March 2026",
+        title: "Early-childhood temperament deviations mark psychiatric risk into early adulthood",
+        authors: "Kopal, J., Smeland, O.B., Hagen, E., et al.",
+        journal: "Medrxiv",
+        link: "https://doi.org/10.64898/2026.08.06.26359855",
+        type: "preprint"
+    }, 
     {
         date: "March 2026",
         title: "Early-childhood temperament deviations mark psychiatric risk into early adulthood",
         authors: "Kopal, J., Bakken, N.R., Parekh, P., et al.",
-        journal: "medRxiv",
-        link: "https://doi.org/10.64898/2026.03.27.26349492",
-        type: "preprint"
+        journal: "Molecular Psychiatry",
+        link: "https://doi.org/10.1038/s41380-026-03881-0",
+        type: "publication"
     }, 
     {
         date: "February 2026",
