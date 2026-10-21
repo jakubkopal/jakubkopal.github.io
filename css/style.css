@@ -5,12 +5,12 @@
 }
 
 :root {
---primary-color: #2E6E8E;      /* fjord blue - deeper, cooler than teal */
---secondary-color: #A8D8E8;    /* pale arctic water */
---accent-color: #D6E8EF;       /* light frost */
---text-dark: #1a2e3b;          /* deep nordic night */
---text-light: #4a6070;         /* slate grey */
---bg-light: #f7f9fb;           /* cold white */
+--primary-color: #12354e;   /* Dark Tyrian Blue - deep, serious anchor */
+--secondary-color: #5a82b3; /* Olympic Blue - mid tone for support */
+--accent-color: #f3a257;    /* Golden Yellow - warm counterpoint */
+--text-dark: #1e2a32;       /* near-black derived from the blue */
+--text-light: #4f5d68;      /* muted slate */
+--bg-light: #f6f4ef;        /* warm off-white, not cold */
 --white: #ffffff;
 }
 
